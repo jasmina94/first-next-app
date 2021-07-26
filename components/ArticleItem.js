@@ -1,6 +1,7 @@
 import Link from "next/link";
 import articleStyles from '../styles/Article.module.css';
 
+//Change
 const ArticleItem = ({article}) => {
     return (
         <Link href="/article/[id]" as={`/article/${article.id}`}>
